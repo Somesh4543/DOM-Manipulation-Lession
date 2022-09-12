@@ -89,7 +89,7 @@ const clearBtn = () => {
   squares.forEach(square => square.innerText = ' ')
 }
 const clearGameBtn = document.getElementById('clear')
-clearGameBtn.onclick = () => clearBtn
+clearGameBtn.onclick = () => clearBtn();
 
 
 
